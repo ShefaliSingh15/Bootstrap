@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/Firstbootstrap.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../js/bootstap.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<img src="../images/240_F_145086415_2b6j91Rt393qNkcaOEiCMyp9rfpbcbsU.jpg" class="img-circle" width="100px" height="100px">  
+           <h1>City Forecast</h1>
+           <!--navigation bar-->
+		<div>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					</div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li> <a href="#">Weather</a></li>
+						<li> <a href="#">Maps</a></li>	
+						<li> <a href="Second.html">Activity</a></li>	
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+                <!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="image1" src="../images/pexels-photo-93046.jpeg" alt="rain" style="width:1800px;height:500px;" >
+					</div>
+                    <div class="item">
+						<img class="image1" src="../images/winter.jpg" alt="winter" style="width:1900px;height:500px;" >
+					</div>
+					<div class="item">
+						<img class="image1" src="../images/summer.jpg" alt="summer" style="width:1900px;height:500px;">
+					</div>
+				</div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					<span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					<span class="sr-only">Next</span>
+				    </a>
+		</div>
+		</div>
+		<!--Search-bar-->
+		<div class="row">
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<div class="col-sm-6 col-md-6">
+					<form class="navbar-form" role="search" method="get" id="search-form" name="search-form">
+						<div class="btn-group pull-left">
+						</div>
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Search Your City" id="query" name="query" value="">
+							<div class="input-group-btn">
+								<button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search"></span></button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-2 col-md-2">
+					<form class="navbar-form navbar-right" role="search">
+					</form>
+				</div>
+			</div>
+		</div>    
+	</div> 
+    <div class="container">
+	<div class="row">                                     
+		<div class="col-md-4 thumbnail">                 
+			<img class="new1" src="../images/news1.jpg" />
+			<a href="#"><p style="margin-left:30px">By 2100, North India Could Face Deadly Heatwaves, Warns Study</p></a>
+		</div>                  
+		<div class="col-md-4 thumbnail">
+			<img class="new2" src="../images/monsoon.jpg"/>
+			<a href="#"><p style="margin-left:30px">Lightning Kills 21 As Floods Sweep Across Odisha, Jharkhand</p></a>
+		</div>
+		<div class="col-md-4 thumbnail">
+			<img class="new3" src="../images/news3.jpg"/>
+			<a href="#"> <p style="margin-left:30px">Weather Department Sends Out Heavy Rainfall Warning Across Odisha</p></a>
+		</div>                  
+	</div>
+	</div>
+	<div class="container">
+	<div class="panel panel-default">
+		<a href> <img class="img1" src="../images/playstore.png" /></a>
+		<div class="panel-new"> Contact us:</div>
+		<a href> <img class="img2" src="../images/c1.png" /></a>
+		<a href> <img class="img3" src="../images/c2.png" /></a>
+    </div>
+    </div>
+</div>
+</body>
+</html>
